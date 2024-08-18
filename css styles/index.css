@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: #eaddcb;
 }
 
 nav > p {
@@ -14,12 +15,16 @@ nav > p {
 
 h1 {
   font-family: "Playfair Display", sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-style: italic;
+  color: #23404a;
 }
 
 h2 {
   font-family: "Playfair Display", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-style: italic;
+  color: #23404a;
 }
 
 h3 {
@@ -30,17 +35,35 @@ h3 {
 p {
   font-family: Lato;
   font-size: 1rem;
+  text-align: justify;
 }
 
 a {
   text-decoration: none;
   color: black;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #73232a;
 }
 
 ul li {
   font-family: Lato;
   font-size: 1rem;
   list-style: none;
+  font-weight: bold;
+}
+
+ol li {
+  font-family: Lato;
+  font-size: 1rem;
+}
+
+ul li a {
+  /* color: #23404a; */
 }
 
 nav {
@@ -55,10 +78,69 @@ nav {
 }
 
 header {
-  margin: 16px;
+  margin: 16px 40px 16px 40px;
 }
 
 .section__intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.text__intro {
+  padding-top: 120px;
+}
+
+.text__intro--sub > p {
+  font-size: 1.5rem;
+}
+
+.section__bio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  margin: 16px 40px 16px 40px;
+}
+
+.section__reasons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  margin: 16px 40px 16px 40px;
+}
+
+.fragment__identifier {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav__aside {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+}
+
+
+.section__aside > h2 {
+  text-align: center;
+}
+
+blockquote p {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2rem;
+  color: #23404a;
+  text-align: center;
+}
+
+figure img {
+  width: 550px;
+  height: 570px;
+  object-fit: cover;
+  border-radius: 150px;
+}
+
+figcaption {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
 }
