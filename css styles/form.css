@@ -10,7 +10,7 @@
 body {
   font-family: var(--font-text-primary);
   margin: 0;
-  height: 100%vh;
+  height: 100%;
 }
 
 h1 {
@@ -20,14 +20,16 @@ h1 {
   font-size: 50px;
   line-height: 4rem;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2 {
   font-family: var(--font-text-headings);
 }
 
-.form__intro {
+p {
   color: #85888c;
+  font-size: 14px;
 }
 
 .container {
@@ -44,28 +46,39 @@ h2 {
 }
 
 .second__container {
+  overflow-y: auto;
 }
 
 header {
-background-color: #fefcf7;
+  background-color: #fefcf7;
+}
+
+ul {
+  margin: 0;
 }
 
 .nav__list {
   display: flex;
   gap: 2rem;
-  margin-top: 10px;
+  padding: 20px;
   justify-content: end;
- 
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #0566f1;
+}
+
+a:hover {
+  color: #033985;
+  text-decoration: underline;
+  text-decoration-line: #033985;
 }
 
 ul li {
   list-style: none;
   font-family: var(--font-text-headings);
+  font-weight: 600;
 }
 
 .form__grid {
@@ -75,9 +88,38 @@ ul li {
 
 figure img {
   width: 450px;
-  height: 450px;
+  height: 350px;
   object-fit: contain;
 }
+
+figure {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.links__socialmedia {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.link__phone {
+  font-family: var(--font-text-headings);
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+}
+
+.footer {
+  font-family: var(--font-text-headings);
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+}
+
 
 input {
   width: 250px;
@@ -89,4 +131,21 @@ input {
   font-weight: 300;
   padding: 20px;
   margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.input--channels {
+  width: 520px;
+}
+
+button {
+  width: 520px;
+  height: 50px;
+  padding: 10px;
+  font-family: var(--font-text-primary);
+  margin-bottom: 30px;
+  background-color: #6a6ff5;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
