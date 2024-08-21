@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-text-headings: "Anek Devanagari", sans-serif;
+  --font-text-primary: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--font-text-primary);
+  margin: 0;
+  height: 100%vh;
+}
+
+h1 {
+  font-family: var(--font-text-headings);
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 4rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: var(--font-text-headings);
+}
+
+.form__intro {
+  color: #85888c;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.first__container {
+  background-color: #fefcf7;
+  height: 100%vh;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.second__container {
+}
+
+header {
+background-color: #fefcf7;
+}
+
+.nav__list {
+  display: flex;
+  gap: 2rem;
+  margin-top: 10px;
+  justify-content: end;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  list-style: none;
+  font-family: var(--font-text-headings);
+}
+
+.form__grid {
+  display: flex;
+  gap: 20px;
+}
+
+figure img {
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+}
+
+input {
+  width: 250px;
+  height: 56px;
+  border: none;
+  background-color: #fafafa;
+  font-family: var(--font-text-primary);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 20px;
+  margin-bottom: 40px;
+}

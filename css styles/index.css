@@ -5,6 +5,7 @@
 body {
   margin: 0;
   background-color: #eaddcb;
+  /* background-color: #c7d6e1; */
 }
 
 nav > p {
@@ -17,7 +18,7 @@ h1 {
   font-family: "Playfair Display", sans-serif;
   font-size: 2.5rem;
   font-style: italic;
-  color: #23404a;
+  color: #73232a;
 }
 
 h2 {
@@ -47,7 +48,8 @@ a {
 
 a:hover {
   text-decoration: underline;
-  text-decoration-color: #73232a;
+  text-decoration-color: black;
+  color: #73232a;
 }
 
 ul li {
@@ -119,7 +121,6 @@ header {
   justify-content: space-evenly;
 }
 
-
 .section__aside > h2 {
   text-align: center;
 }
@@ -137,7 +138,7 @@ figure img {
   width: 550px;
   height: 570px;
   object-fit: cover;
-  border-radius: 150px;
+  border-radius: 200px;
 }
 
 figcaption {
