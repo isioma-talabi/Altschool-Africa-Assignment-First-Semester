@@ -64,10 +64,6 @@ ol li {
   font-size: 1rem;
 }
 
-ul li a {
-  /* color: #23404a; */
-}
-
 nav {
   display: flex;
   justify-content: space-between;

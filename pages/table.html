@@ -1,68 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Courses at AltSchool Africa</title>
-  </head>
-  <body>
-    <header>
-      <ul>
-        <li><a href="./index.html">About Me</a></li>
-        <li><a href="./form.html">AltSchool Application Form</a></li>
-        <li><a href="./table.html">Table of AltSchool Courses</a></li>
-        <li>
-          <a href="./media.html">HTML Scrapbook of Isioma - Media Project</a>
-        </li>
-      </ul>
-    </header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses at AltSchool Africa</title>
+
+  <!-- Typography & Fonts -->
+  <!-- Anek Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
+
+  <!-- Poppins -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Styling Sheet -->
+  <link rel="stylesheet" href="../css styles/table.css">
+</head>
+
+<body>
+  <header>
+    <ul class="nav__list">
+      <li><a href="./index.html">About Me</a></li>
+      <li><a href="./form.html">AltSchool Application Form</a></li>
+      <li><a href="./table.html">Table of AltSchool Courses</a></li>
+      <li>
+        <a href="./media.html">HTML Scrapbook of Isioma - Media Project</a>
+      </li>
+    </ul>
+  </header>
 
 
-    <main>
-      <section id="table_introduction">
-        <h1>Welcome to the School of Engineering!</h1>
-        <p>
-          Prepare for a rewarding career in tech. We offer various technical
-          courses that equip you with the knowledge and skills required to
-          start, switch, or boost your career.
-        </p>
-      </section>
+  <main>
+    <section id="table_introduction">
+      <h1>Welcome to the School of Engineering!</h1>
+      <p>
+        Prepare for a rewarding career in tech! <br> We offer various technical
+        courses that equip you with the knowledge and skills required to
+        start, switch, or boost your career.
+      </p>
 
-      <section id="table_courses">
-        <table>
-          <caption>
-            Our course offerings:
-          </caption>
-          <thead>
-            <tr>
-              <th>School</th>
-              <th colspan="4">Courses</th>
-            </tr>
-          </thead>
-          
-          <tbody>
-            <tr>
-              <th>School of Engineering</th>
-              <td>Front-End Engineering</td>
-              <td>Back-End Engineering</td>
-              <td>Cloud Engineering</td>
-              <td>Cybersecurity</td>
-            </tr>
-            <tr>
-              <th>School of Product</th>
-              <td>Product Design</td>
-              <td>Product Marketing</td>
-              <td>Product Management</td>
-            </tr>
-            <tr>
-              <th>School of Data</th>
-              <td>Data Analysis</td>
-              <td>Data Science</td>
-              <td>Data Engineering</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-    </main>
-  </body>
+      <h2>Our course offerings:</h2>
+    </section>
+
+    <section id="table_courses">
+      <table class="table__content">
+        <thead>
+          <tr>
+            <th class="th__firstcolumn">School</th>
+            <th colspan="4">Courses</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th class="th__firstcolumnrows">School of Engineering</th>
+            <td>Front-End Engineering</td>
+            <td>Back-End Engineering</td>
+            <td>Cloud Engineering</td>
+            <td>Cybersecurity</td>
+          </tr>
+          <tr>
+            <th class="th__firstcolumnrows">School of Product</th>
+            <td>Product Design</td>
+            <td>Product Marketing</td>
+            <td>Product Management</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th class="th__firstcolumnrows">School of Data</th>
+            <td>Data Analysis</td>
+            <td>Data Science</td>
+            <td>Data Engineering</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+
 </html>
