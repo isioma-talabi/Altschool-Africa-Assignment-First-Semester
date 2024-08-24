@@ -1,0 +1,124 @@
+:root {
+  --font-text-headings: "Ojuju", sans-serif;
+  --font-text-primary: "Anek Devanagari", sans-serif;
+  --colour-primary: #e5b80b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-text-primary);
+  font-size: 1rem;
+  background-color: var(--colour-primary);
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/* Navigantion Bar Styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > p {
+  font-family: var(--font-text-headings);
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nav__list {
+  display: flex;
+  gap: 2rem;
+  margin-top: 10px;
+}
+
+ul li {
+  font-family: var(--font-text-primary);
+  font-size: 1rem;
+  list-style: none;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ad1017;
+  text-decoration: underline;
+}
+
+/* Headings, Titles Styles */
+
+h1 {
+  font-family: var(--font-text-headings);
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--font-text-headings);
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: var(--font-text-headings);
+  font-size: 1.5rem;
+}
+
+h4 {
+  text-align: center;
+  font-family: var(--font-text-headings);
+  font-style: italic;
+  font-size: 2rem;
+  color: #ad1017;
+}
+
+b > em {
+  color: #ad1017;
+}
+
+hr {
+  background-color: #ad1017;
+  border: none;
+  height: 2px;
+}
+
+p > em {
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: center;
+}
+
+.link__top {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ad1017;
+}
+
+/* Section Styles */
+
+#media_selfies div {
+  text-align: center;
+}
+
+#media_faith div {
+  text-align: center;
+}
+
+#media_vacations div {
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 18px;
+}

@@ -5,15 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The HTML Scrapbook of Isioma</title>
+
+    <!-- Typography & Fonts -->
+    <!-- Ojuju -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Anek Devanagari -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+     <link rel="stylesheet" href="../css styles/media.css">
+
 </head>
 
 <body>
 
     <!--The Navigation Bar-->
     <header id="top">
-        <h1>The HTML Scrapbook of Isioma!</h1>
+
         <nav>
-            <ul>
+            <p>Isioma</p>
+            <ul class="nav__list">
                 <li><a href="./index.html">About Me</a></li>
                 <li><a href="./form.html">AltSchool Application Form</a></li>
                 <li><a href="./table.html">Table of AltSchool Courses</a></li>
@@ -27,9 +43,10 @@
     <main>
         <div>
             <section id="media_intro">
+                <h1>The HTML Scrapbook of Isioma!</h1>
 
-                <em>"I can do all things through Christ who strengthens me."- Philipians 4:13</em>
-                <p>Welcome to my HTML scrap book! In this assignment, I will be using various media HTML elements to
+                <p><em>"I can do all things through Christ who strengthens me."- Philipians 4:13</em></p>
+                <p>Welcome to my HTML scrap book! <br> In this media project assignment, I will be using various media HTML elements to
                     tell a story about myself and some of the things I love. <br> The elements will be made responsive
                     for mobile, tablet and laptop devices.
                     <br>
@@ -41,7 +58,7 @@
         <!--First Section: Favourite Pictures of Myself-->
         <section id="media_selfies">
             <div>
-                <h2>Favourite Pictures of Myself</h2>
+                <h2>Section 1: Some Favourite Pictures of Myself</h2>
                 <p>Below, are some of my favourite pictures taken around different places in Abuja, Lagos and London.
                 </p>
                 <picture>
@@ -50,7 +67,7 @@
                     <source media="(min-width: 401px)" srcset="../pout-small.jpg">
                     <img src="../Media Assignment Images/default/pout-default.jpg"
                         alt="A picture of Isioma in a yellow strap dress making a jovial pout.">
-                    <figcaption><b>Me, at a restaurant opening in Abuja because I love food!</b></figcaption>
+                    <figcaption><b>Me, goofing around at a restaurant opening in Abuja because I love food!</b></figcaption>
                 </picture>
                 <br>
                 <br>
@@ -72,7 +89,7 @@
                     <source media="(min-width: 500px)" srcset="../selfie-small.jpg">
                     <img src="../Media Assignment Images/default/selfie-default.jpg"
                         alt="A picture of Isioma sitting in a restaurant wearing a pink jumpsuit.">
-                    <figcaption><b>Another picture of me in a restaurant</b></figcaption>
+                    <figcaption><b>Having breakfast with friends on a fine Saturday morning in Abuja.</b></figcaption>
                 </picture>
         </section>
         </div>
@@ -84,9 +101,9 @@
         <!--Second section: Faith & My Beautiful Catholic Life-->
         <section id="media_faith">
             <div>
-                <h2>Faith & My Beautiful Catholic Life</h2>
+                <h2> Section 2: Faith & My Beautiful Catholic Life</h2>
                 <p>I am in a loving relationship with Jesus Christ and I express this relationship through living out my
-                    Catholic faith. Everyday, I am in awe of how intentional God is and how he uses the Blessed Virgin
+                    Catholic faith. <br> Everyday, I am in awe of how intentional God is and how he uses the Blessed Virgin
                     Mary and all the angels and saints of God to continuously draw us into His presence. In this section
                     I outline visual and audio displays of some of the things that bring joy to my faith. </p>
                 <picture>
@@ -106,16 +123,16 @@
             <div>
                 <h3>Some songs I love:</h3>
                 <p><b>Title: Iruele Maria by Obioha Ogbonna</b></p>
-                <p><b>Description:</b> Composed by one of the best Nigerian, Catholic composers, this beautiful
+                <p><b>Description:</b> <br> Composed by one of the best Nigerian, Catholic composers, this beautiful
                     rendition is the beloved 'Hail Mary' prayer in the Etsako language of Edo state, Nigeria. One of my
                     best songs of 2024!</p>
                 <audio src="../Media Assignment Images/audio/Obioha-Ogbonna-Iruele-Maria-Hail-Mary.mp3"
                     controls></audio>
 
                 <p><b>Title: Tewo Gbegbowa</b></p>
-                <p><b>Description:</b> A beautiful song imploring God to accept the gifts we offer to Him. Sung by the
+                <p><b>Description:</b> <br> A beautiful song imploring God to accept the gifts we offer to Him. Sung by the
                     St. Albert Choir of UNIBEN. </p>
-                <audio src="../Media Assignment Images/audio/St-Albert-Choir-Tewo-Gbegbowa.mp3" controls></audio>
+                <audio src="../Media Assignment Images/audio/St-Albert-Choir-Tewo-Gbegbowa.mp3" controls autoplay preload="auto"></audio>
 
             </div>
             <br>
@@ -124,7 +141,7 @@
                 <h3>Video I love currently:</h3>
                 <p>This powerful message from Monsignor James Shea is a moving one about how we humans are called to
                     hunger and seek God to fill the void in our life. <br> He journeys from Genesis to Jesus's death on
-                    the cross and finally to the book of Revealation describing to us God's intentionality to set us
+                    the cross and finally to the book of Revealation <br> describing to us God's intentionality to set us
                     free from sin and to call us into a vibrant life in Him. <br> I had goosebumps watching this.
                     Beautiful and powerful.</p>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/93Q2kgvA31k?si=WTmBWiNFV9IPgB3m"
@@ -139,7 +156,7 @@
         <!--Third section: Love, Vacations & Fun-->
         <section id="media_vacations">
             <div>
-                <h2>Love, Vacations & Fun</h2>
+                <h2>Section 3: Love, Vacations & Fun</h2>
                 <picture>
                     <source media="(min-width: 1201px)" srcset="../olumo-large.jpg">
                     <source media="(min-width: 801px)" srcset="../olumo-medium.jpg">
@@ -180,7 +197,7 @@
         <h4>The End</h4>
     </main>
 
-    <section>
+    <section class="link__top">
         <a href="#top">Back to the top!</a>
     </section>
 </body>
