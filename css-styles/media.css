@@ -1,7 +1,9 @@
 :root {
   --font-text-headings: "Ojuju", sans-serif;
   --font-text-primary: "Anek Devanagari", sans-serif;
-  --colour-primary: #e5b80b;
+  --colour-primary: #d1e8e2;
+  --color-text-primary: #e43d12;
+  --color-text-secondary: #1b7931;
 }
 
 * {
@@ -25,9 +27,10 @@ nav {
 
 nav > p {
   font-family: var(--font-text-headings);
-  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .nav__list {
@@ -49,7 +52,7 @@ a {
 }
 
 a:hover {
-  color: #ad1017;
+  color: var(--color-text-primary);
   text-decoration: underline;
 }
 
@@ -59,11 +62,13 @@ h1 {
   font-family: var(--font-text-headings);
   font-size: 4rem;
   text-align: center;
+  color: var(--color-text-primary);
 }
 
 h2 {
   font-family: var(--font-text-headings);
   font-size: 2rem;
+  color: var(--color-text-secondary);
 }
 
 h3 {
@@ -76,11 +81,11 @@ h4 {
   font-family: var(--font-text-headings);
   font-style: italic;
   font-size: 2rem;
-  color: #ad1017;
+  color: var(--color-text-primary);
 }
 
 b > em {
-  color: #ad1017;
+  color: var(--color-text-secondary);
 }
 
 hr {
@@ -91,10 +96,13 @@ hr {
 
 p > em {
   font-size: 1.5rem;
+  font-family: var(--font-text-headings);
+  font-weight: bold;
 }
 
 p {
   text-align: center;
+  font-size: 18px;
 }
 
 .link__top {
@@ -122,3 +130,4 @@ figcaption {
   margin-top: 10px;
   font-size: 18px;
 }
+

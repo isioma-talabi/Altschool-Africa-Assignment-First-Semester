@@ -4,10 +4,10 @@
 
 This is a solution to my first semester assignment at Altschool Africa for my Front End Engineering Diploma. The assignment contains 4 pages built with HTML and styled with CSS. 
 A list of the files all available in the navigation bar include:
-`.index.html` - An about me page detailing my biography and my reason for applying to the Altschool Africa Diploma.
-`.form.html` - A replication of the Altschool Africa application form.
-`.table.html` - A table showing all the couses available at Altschool Africa.
-`.media.html` - A media project with picture elements and coded to be responsive to different screens using HTML.
+- `.index.html` - An about me page detailing my biography and my reason for applying to the Altschool Africa Diploma.
+- `.form.html` - A replication of the Altschool Africa application form.
+- `.table.html` - A table showing all the couses available at Altschool Africa.
+- `.media.html` - A media project with picture elements and coded to be responsive to different screens using HTML.
 
 ## My process
 
@@ -38,10 +38,10 @@ Things I will be learning in the comimg weeks:
 
 - Mastering Grid Layouts with CSS
 - Media queries with CSS
--Javascript
+- Javascript
 
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Live site URL]()
+- Solution URL: [Solution URL](https://github.com/isioma-talabi/Altschool-Africa-Assignment-First-Semester)
+- Live Site URL: [Live site URL](https://isioma-talabi.github.io/Altschool-Africa-Assignment-First-Semester/media.html)

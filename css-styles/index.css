@@ -1,7 +1,7 @@
 :root {
   --font-text-headings: "Ojuju", sans-serif;
   --font-text-primary: "Anek Devanagari", sans-serif;
-  --colour-primary: #e5b80b;
+  --colour-primary: #9ADBBA;
 }
 
 * {
@@ -9,22 +9,21 @@
 }
 
 body {
-  margin: 0;
-  background-color: var(--colour-primary);
-  margin-left: 80px;
-  margin-right: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav > p {
   font-family: var(--font-text-headings);
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
   margin-top: 0;
 }
 
 h1 {
   font-family: var(--font-text-headings);
   font-size: 2.5rem;
-  color: #ad1017;
+  color: inherit;
 }
 
 h2 {
@@ -93,6 +92,7 @@ header {
 .section__intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: var(--colour-primary);
 }
 
 .text__intro {
@@ -108,6 +108,7 @@ header {
   grid-template-columns: 1fr 1fr;
   place-items: center;
   margin: 16px 40px 16px 40px;
+  background-color: white;
 }
 
 .section__reasons {
