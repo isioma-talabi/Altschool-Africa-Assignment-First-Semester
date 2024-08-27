@@ -1,5 +1,9 @@
 # Altschool Assignment Part 1 & 2 - HTML & CSS
 
+## Screenshot
+
+![A screenshot of my solution](./assets/index-page.png)
+
 ## Overview
 
 This is a solution to my first semester assignment at Altschool Africa for my Front End Engineering Diploma. The assignment contains 4 pages built with HTML and styled with CSS. 
@@ -38,6 +42,7 @@ Things I will be learning in the comimg weeks:
 
 - Mastering Grid Layouts with CSS
 - Media queries with CSS
+- Positioning with CSS
 - Javascript
 
 

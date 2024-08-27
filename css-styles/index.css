@@ -13,6 +13,13 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  /* font-family: var(--font-text-primary); */
+  font-weight: bold;
+}
+
 nav > p {
   font-family: var(--font-text-headings);
   font-size: 2.5rem;
@@ -49,12 +56,7 @@ p {
   text-align: justify;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  font-family: var(--font-text-primary);
-  font-weight: bold;
-}
+
 
 a:hover {
   text-decoration: underline;
