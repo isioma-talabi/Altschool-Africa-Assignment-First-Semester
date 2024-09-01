@@ -2,9 +2,25 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Almanera Bold";
+  src: url(../assets/fonts/Almarena-Almarena-Display-Bold.otf);
+}
+
+@font-face {
+  font-family: "Almarena Light";
+  src: url(../assets/fonts/Almarena-Almarena-Display-Light.otf);
+}
+
+@font-face {
+  font-family: "Almanera Regular";
+  src: url(../assets/fonts/Almarena-Almarena-Display-Regular.otf);
+}
+
 :root {
-  --font-text-headings: "Anek Devanagari", sans-serif;
-  --font-text-primary: "Poppins", sans-serif;
+  --font-text-headings: "Almanera Bold", sans-serif;
+  --font-text-primary: "Almanera Regular", sans-serif;
+  --font-text-light: "Almanera Light", sans-serif;
 }
 
 body {
@@ -13,10 +29,15 @@ body {
   height: 100%;
 }
 
+.form__grid {
+  display: flex;
+  gap: 20px;
+}
+
 h1 {
   font-family: var(--font-text-headings);
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 50px;
   line-height: 4rem;
   margin-top: 0;
@@ -40,14 +61,13 @@ p {
 
 .first__container {
   background-color: #fefcf7;
-  height: 100%vh;
-  padding-left: 30px;
-  padding-right: 30px;
+  height: 100vh;
+  padding: 2rem;
 }
 
-.second__container {
-  overflow-y: auto;
-}
+/* form {
+  overflow: scroll;
+} */
 
 header {
   background-color: #fefcf7;
@@ -80,12 +100,6 @@ ul li {
   font-family: var(--font-text-headings);
   font-weight: 600;
 }
-
-.form__grid {
-  display: flex;
-  gap: 20px;
-}
-
 figure img {
   width: 450px;
   height: 350px;
@@ -105,28 +119,27 @@ figure {
 }
 
 .link__phone {
-  font-family: var(--font-text-headings);
-  font-size: 14px;
-  font-weight: 300;
+  font-family: var(--font-text-light);
+  font-size: 8px;
+  font-weight: 100;
   text-align: center;
   color: black;
 }
 
 .footer {
-  font-family: var(--font-text-headings);
+  font-family: var(--font-text-primary);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   color: black;
 }
-
 
 input {
   width: 250px;
   height: 56px;
   border: none;
   background-color: #fafafa;
-  font-family: var(--font-text-primary);
+  font-family: var(--font-text-light);
   font-size: 14px;
   font-weight: 300;
   padding: 20px;
@@ -134,8 +147,20 @@ input {
   margin-top: 10px;
 }
 
+div > label {
+  font-family: var(--font-text-light);
+  letter-spacing: 0.5px;
+  color: rgb(26, 24, 24);
+}
+
 .input--channels {
   width: 520px;
+}
+
+.text__termsofuse {
+  font-size: 15px;
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
 
 button {
@@ -148,4 +173,74 @@ button {
   color: white;
   border: none;
   border-radius: 5px;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  figure img {
+    width: 350px;
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5rem;
+  }
+
+  .container {
+    gap: 40px;
+  }
+
+  .first__container {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  body {
+    height: fit-content;
+    width: fit-content;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  header {
+    background-color: white;
+    font-size: 14px;
+  }
+
+  button {
+    width: 480px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  input {
+    width: 230px;
+  }
+
+  .input--channels {
+    width: 480px;
+  }
+
+  .last__break {
+    display: none;
+  }
+
+  .text__termsofuse {
+    font-size: 10px;
+  }
 }

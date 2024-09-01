@@ -1,7 +1,7 @@
 :root {
   --font-text-headings: "Ojuju", sans-serif;
   --font-text-primary: "Anek Devanagari", sans-serif;
-  --colour-primary: #9ADBBA;
+  --colour-primary: #9adbba;
 }
 
 * {
@@ -55,8 +55,6 @@ p {
   font-size: 1rem;
   text-align: justify;
 }
-
-
 
 a:hover {
   text-decoration: underline;
@@ -123,6 +121,8 @@ header {
 .fragment__identifier {
   display: flex;
   justify-content: space-around;
+  font-family: var(--font-text-headings);
+  font-size: 20px;
 }
 
 .nav__aside {
@@ -153,4 +153,69 @@ figure img {
 figcaption {
   font-family: var(--font-text-primary);
   font-size: 1rem;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 800px) {
+  .second__rule {
+    display: none !important;
+  }
+}
+
+@media (max-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-left: 10px;
+  }
+
+  .section__intro {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+
+  figure img {
+    width: 350px;
+    height: 370px;
+    border-radius: 0;
+  }
+
+  .text__intro {
+    padding-top: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .text__intro--sub > p {
+    font-size: 1rem;
+  }
+
+  .section__reasons,
+  .section__bio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav__aside {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    place-items: center;
+    padding-left: 10px;
+  }
+
+  h2 {
+    text-align: center;
+    
+  }
 }
